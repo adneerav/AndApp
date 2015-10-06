@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/strRequest"
+        android:title="String Request"></item>
+    <item
+        android:id="@+id/jsonRequest"
+        android:title="Json Request"></item>
+    <item
+        android:id="@+id/pojoRequest"
+        android:title="POGO Request"></item>
+</menu>

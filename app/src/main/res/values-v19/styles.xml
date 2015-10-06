@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppThemeT" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- android:windowTranslucentStatus to make status bar transparen.
+            To display layout give layout android:fitsSystemWindows="true" to fit
+            layout , ActionBar||Toolbar, and content
+         -->
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <!--android:windowTranslucentNavigation to make transparent Software Navigation Button -->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="colorPrimary">@color/slider_bg_primary</item>
+        <item name="colorPrimaryDark">@color/slider_bg_primary_dark</item>
+    </style>
+    <style name="AppThemeSliderToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_full</item>
+        <item name="colorPrimary">@color/slider_bg_primary</item>
+        <item name="colorPrimaryDark">@color/slider_bg_primary_dark</item>
+    </style>
+</resources>

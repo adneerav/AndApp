@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffc699">
+
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/btnSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/bg_primary"
+        android:src="@drawable/push_ic_launcher_small_l"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="mini"
+        app:layout_anchor="@id/relative_home"
+        app:layout_anchorGravity="bottom|right|end"
+        app:pressedTranslationZ="12dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/slider_bg_primary"
+        android:src="@drawable/push_ic_launcher_small_l"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        app:layout_anchor="@id/relative_home"
+        app:layout_anchorGravity="bottom|right|end"
+        app:pressedTranslationZ="12dp" />
+</RelativeLayout>

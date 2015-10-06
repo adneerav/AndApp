@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/push_ic_launcher_small_l"
+            android:title="Home">
+
+        </item>
+        <item
+            android:id="@+id/nav_help"
+
+            android:icon="@drawable/push_ic_launcher_small_l"
+            android:title="Help">
+
+        </item>
+        <item
+            android:id="@+id/nav_calendar"
+
+            android:icon="@drawable/push_ic_launcher_small_l"
+            android:title="Calendar"></item>
+    </group>
+    <item android:title="Child Menu OutSide Group tag">
+        <menu>
+            <item
+                android:icon="@drawable/push_ic_launcher_small_l"
+                android:title="Settings " />
+            <item
+                android:icon="@drawable/push_ic_launcher_small_l"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

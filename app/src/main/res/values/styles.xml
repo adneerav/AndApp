@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ABBgThem</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="actionOverflowButtonStyle">@style/AbOverFlowIcon</item>
+    </style>
+
+    <style name="AppThemeT" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/bg_primary</item>
+        <item name="colorPrimaryDark">@color/bg_dark_prim</item>
+    </style>
+
+    <style name="ABBgThem" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/bg_actbar</item>
+    </style>
+
+    <style name="AbOverFlowIcon" parent="Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/setting_half</item>
+    </style>
+
+    <style name="AppThemeSlider" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ABBgSliderTheme</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="actionOverflowButtonStyle">@style/AbOverFlowIcon</item>
+    </style>
+
+    <style name="ABBgSliderTheme" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/sldier_actioncolor</item>
+    </style>
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!--//hint color And Label Color in False State-->
+        <item name="android:textColorHint">#fe0089</item>
+        <item name="android:textSize">20sp</item>
+        <!--//Label color in True State And Bar Color False And True State-->
+        <item name="colorAccent">#000000</item>
+        <item name="colorControlNormal">#a1069c</item>
+        <item name="colorControlActivated">#1300fe</item>
+    </style>
+    <style name="AppThemeSliderToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/slider_bg_primary</item>
+        <item name="colorPrimaryDark">@color/slider_bg_primary_dark</item>
+    </style>
+
+
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>

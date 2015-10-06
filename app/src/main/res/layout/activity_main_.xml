@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:fitsSystemWindows="true"
+    android:layout_height="match_parent" android:orientation="vertical">
+
+    <include
+        android:id="@+id/ab_tool"
+        layout="@layout/ab_custom"></include>
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent" />
+
+</LinearLayout>
