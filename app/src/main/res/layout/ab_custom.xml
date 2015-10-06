@@ -5,5 +5,5 @@
     android:background="@color/bg_primary"
     android:elevation="8dp"
     android:orientation="horizontal">
-<!--comment test-->
+    <!--comment test AndAppchild-->
 </android.support.v7.widget.Toolbar>
